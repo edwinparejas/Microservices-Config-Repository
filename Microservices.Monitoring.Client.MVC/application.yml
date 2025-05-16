@@ -1,3 +1,4 @@
+ProductsServiceURL: http://Microservices.Monitoring.Products.API/api/products
 ElasticApm:
     SecretToken: 
     ServerUrls: http://apm-server:8200
