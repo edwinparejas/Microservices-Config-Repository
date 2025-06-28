@@ -1,7 +1,7 @@
 Keycloak:
-  Server: http://localhost:8992
-  Issuer: http://identity:8080/realms/microservices-demo
-  Authority: http://identity:8080/realms/microservices-demo
+  Server: http://identity:8080
+  Issuer: http://localhost:8992/realms/microservices-demo
+  Authority: http://localhost:8992/realms/microservices-demo
 
 ElasticApm:
   ServerUrl: http://apm-server:8200
