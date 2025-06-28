@@ -14,5 +14,5 @@ Eureka:
     ServiceUrl: http://eureka.server:8761/eureka
 
 URLServices:
-  Policies: http://products.service/api/policies
-  Products: http://policies.service/api/products
+  Policies: http://policies.service/api/policies
+  Products: http://products.service/api/products
