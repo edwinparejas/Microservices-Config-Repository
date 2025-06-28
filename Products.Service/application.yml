@@ -3,5 +3,5 @@ ConnectionStrings:
 ElasticApm:
     SecretToken: 
     ServerUrls: http://apm-server:8200
-    ServiceName: Microservices.Demo.Product.API
+    ServiceName: Products.Service
     Environment: production
