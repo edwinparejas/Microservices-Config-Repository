@@ -20,7 +20,7 @@ ConnectionStrings:
   PoliciesConnection: "Server=mysql;Port=3306;Database=Microservices.Demo.Policies;User=root;Password=Password1234"
 
 Kafka:
-  BootstrapServers: kafka:9094
+  BootstrapServers: kafka:9092
   Persistence:
     Outbox:
       MessagingConnection: "Server=sqlserver,1433;Database=Microservices.Demo.MessagesBox;User Id=sa;Password=Password1234;TrustServerCertificate=True;Encrypt=False;"
