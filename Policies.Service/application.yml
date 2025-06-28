@@ -14,7 +14,7 @@ Eureka:
     ServiceUrl: http://eureka.server:8761/eureka
 
 URLServices:
-  Pricing: http://localhost:8990/gateway/pricing
+  Pricing: http://gateway:8080/gateway/pricing
 
 ConnectionStrings:
   PoliciesConnection: "Server=mysql;Port=3306;Database=Microservices.Demo.Policies;User=root;Password=Password1234"
