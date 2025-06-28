@@ -1,7 +1,7 @@
 ConnectionStrings:    
-    ProductConnection: Data Source=sqlserver;Initial Catalog=Microservices.Demo.Products;Persist Security Info=True;User ID=sa;Password=Password1234;Encrypt=false;
+    ProductsConnection: Data Source=sqlserver;Initial Catalog=Microservices.Demo.Products;Persist Security Info=True;User ID=sa;Password=Password1234;Encrypt=false;
 ElasticApm:
     SecretToken: 
-    ServerUrls: http://microservices.demo.apm-server:8200
+    ServerUrls: http://apm-server:8200
     ServiceName: Microservices.Demo.Product.API
     Environment: production
