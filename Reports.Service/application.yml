@@ -14,5 +14,5 @@ Eureka:
     ServiceUrl: http://eureka.server:8761/eureka
 
 URLServices:
-  Policies: http://gateway:8080/gateway/policies
-  Products: http://gateway:8080/gateway/products
+  Policies: http://localhost:8990/gateway/policies
+  Products: http://localhost:8990/gateway/products
