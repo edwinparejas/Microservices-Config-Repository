@@ -1,0 +1,23 @@
+ElasticApm:
+  ServerUrl: http://apm-server:8200
+  Environment: production
+
+Logstash:
+  Uri: http://logstash:28080
+  Environment: production
+
+OtelCollector:
+  Endpoint: http://jaeger:4317
+
+ConnectionStrings:
+  PaymentsConnection: "Host=postgres;Port=5432;Database=Microservices.Demo.Payments;Username=postgres;Password=Password1234"
+
+Eureka:
+  Client:
+    ServiceUrl: http://eureka.server:8761/eureka
+
+BackgroundProcess:
+  HangfireConnectionStringName: "Host=postgres;Port=5432;Database=Microservices.Demo.Payments.Jobs;Username=postgres;Password=Password1234"
+
+Kafka:
+  BootstrapServers: kafka:9094

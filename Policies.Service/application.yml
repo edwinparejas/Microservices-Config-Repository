@@ -1,0 +1,26 @@
+ElasticApm:
+  ServerUrl: http://apm-server:8200
+  Environment: production
+
+Logstash:
+  Uri: http://logstash:28080
+  Environment: production
+
+OtelCollector:
+  Endpoint: http://jaeger:4317
+
+Eureka:
+  Client:
+    ServiceUrl: http://eureka.server:8761/eureka
+
+URLServices:
+  Pricing: http://localhost:8990/gateway/pricing
+
+ConnectionStrings:
+  PoliciesConnection: "Server=mysql;Port=3306;Database=Microservices.Demo.Policies;User=root;Password=Password1234"
+
+Kafka:
+  BootstrapServers: kafka:9094
+  Persistence:
+    Outbox:
+      MessagingConnection: "Server=sqlserver,1433;Database=Microservices.Demo.MessagesBox;User Id=sa;Password=Password1234;TrustServerCertificate=True;Encrypt=False;"
