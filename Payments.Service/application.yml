@@ -20,4 +20,4 @@ BackgroundProcess:
   HangfireConnectionStringName: "Host=postgres;Port=5432;Database=Microservices.Demo.Payments.Jobs;Username=postgres;Password=Password1234"
 
 Kafka:
-  BootstrapServers: kafka:9094
+  BootstrapServers: kafka:9092

@@ -18,4 +18,4 @@ ElasticSearch:
     - http://elasticsearch:9200
 
 Kafka:
-  BootstrapServers: kafka:9094
+  BootstrapServers: kafka:9092
